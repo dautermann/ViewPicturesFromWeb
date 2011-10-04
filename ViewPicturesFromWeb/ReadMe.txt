@@ -12,5 +12,5 @@ There's plenty of places for optimization here (i.e. more caching! better error 
 Let me know if I can provide further elaboration or details.
 
 michael
-dautermann@mac.com
+dautermann @ spamarrest.com
 10/4/2011
