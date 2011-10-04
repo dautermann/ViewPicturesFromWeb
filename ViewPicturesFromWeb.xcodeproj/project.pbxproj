@@ -1,0 +1,338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		259EBBB5143AA9BA00CFF35D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 259EBBB4143AA9BA00CFF35D /* UIKit.framework */; };
+		259EBBB7143AA9BA00CFF35D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 259EBBB6143AA9BA00CFF35D /* Foundation.framework */; };
+		259EBBB9143AA9BA00CFF35D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 259EBBB8143AA9BA00CFF35D /* CoreGraphics.framework */; };
+		259EBBBF143AA9BA00CFF35D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 259EBBBD143AA9BA00CFF35D /* InfoPlist.strings */; };
+		259EBBC1143AA9BA00CFF35D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 259EBBC0143AA9BA00CFF35D /* main.m */; };
+		259EBBC5143AA9BA00CFF35D /* ViewPicturesFromWebAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 259EBBC4143AA9BA00CFF35D /* ViewPicturesFromWebAppDelegate.m */; };
+		259EBBC8143AA9BA00CFF35D /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 259EBBC6143AA9BA00CFF35D /* MainWindow.xib */; };
+		259EBBCB143AA9BA00CFF35D /* ViewPicturesFromWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 259EBBCA143AA9BA00CFF35D /* ViewPicturesFromWebViewController.m */; };
+		259EBBCE143AA9BA00CFF35D /* ViewPicturesFromWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 259EBBCC143AA9BA00CFF35D /* ViewPicturesFromWebViewController.xib */; };
+		259EBBE3143B1E8F00CFF35D /* ViewOnePictureFromWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 259EBBE2143B1E8F00CFF35D /* ViewOnePictureFromWebViewController.m */; };
+		259EBBE6143B1EBD00CFF35D /* ViewOnePictureFromWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 259EBBE4143B1EBD00CFF35D /* ViewOnePictureFromWebViewController.xib */; };
+		259EBBF6143B348700CFF35D /* ReadMe.txt in Resources */ = {isa = PBXBuildFile; fileRef = 259EBBF5143B348700CFF35D /* ReadMe.txt */; };
+		259EBBF9143B37B700CFF35D /* QuestionMark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 259EBBF7143B37B700CFF35D /* QuestionMark.jpg */; };
+		259EBBFF143B3B4600CFF35D /* images.plist in Resources */ = {isa = PBXBuildFile; fileRef = 259EBBFE143B3B4600CFF35D /* images.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		259EBBB0143AA9BA00CFF35D /* ViewPicturesFromWeb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewPicturesFromWeb.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		259EBBB4143AA9BA00CFF35D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		259EBBB6143AA9BA00CFF35D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		259EBBB8143AA9BA00CFF35D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		259EBBBC143AA9BA00CFF35D /* ViewPicturesFromWeb-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ViewPicturesFromWeb-Info.plist"; sourceTree = "<group>"; };
+		259EBBBE143AA9BA00CFF35D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		259EBBC0143AA9BA00CFF35D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		259EBBC2143AA9BA00CFF35D /* ViewPicturesFromWeb-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ViewPicturesFromWeb-Prefix.pch"; sourceTree = "<group>"; };
+		259EBBC3143AA9BA00CFF35D /* ViewPicturesFromWebAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewPicturesFromWebAppDelegate.h; sourceTree = "<group>"; };
+		259EBBC4143AA9BA00CFF35D /* ViewPicturesFromWebAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewPicturesFromWebAppDelegate.m; sourceTree = "<group>"; };
+		259EBBC7143AA9BA00CFF35D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		259EBBC9143AA9BA00CFF35D /* ViewPicturesFromWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewPicturesFromWebViewController.h; sourceTree = "<group>"; };
+		259EBBCA143AA9BA00CFF35D /* ViewPicturesFromWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewPicturesFromWebViewController.m; sourceTree = "<group>"; };
+		259EBBCD143AA9BA00CFF35D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewPicturesFromWebViewController.xib; sourceTree = "<group>"; };
+		259EBBE1143B1E8E00CFF35D /* ViewOnePictureFromWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewOnePictureFromWebViewController.h; sourceTree = "<group>"; };
+		259EBBE2143B1E8F00CFF35D /* ViewOnePictureFromWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewOnePictureFromWebViewController.m; sourceTree = "<group>"; };
+		259EBBE5143B1EBD00CFF35D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewOnePictureFromWebViewController.xib; sourceTree = "<group>"; };
+		259EBBF5143B348700CFF35D /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
+		259EBBF8143B37B700CFF35D /* en */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = en; path = en.lproj/QuestionMark.jpg; sourceTree = "<group>"; };
+		259EBBFE143B3B4600CFF35D /* images.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = images.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		259EBBAD143AA9BA00CFF35D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				259EBBB5143AA9BA00CFF35D /* UIKit.framework in Frameworks */,
+				259EBBB7143AA9BA00CFF35D /* Foundation.framework in Frameworks */,
+				259EBBB9143AA9BA00CFF35D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		259EBBA5143AA9BA00CFF35D = {
+			isa = PBXGroup;
+			children = (
+				259EBBBA143AA9BA00CFF35D /* ViewPicturesFromWeb */,
+				259EBBB3143AA9BA00CFF35D /* Frameworks */,
+				259EBBB1143AA9BA00CFF35D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		259EBBB1143AA9BA00CFF35D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				259EBBB0143AA9BA00CFF35D /* ViewPicturesFromWeb.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		259EBBB3143AA9BA00CFF35D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				259EBBB4143AA9BA00CFF35D /* UIKit.framework */,
+				259EBBB6143AA9BA00CFF35D /* Foundation.framework */,
+				259EBBB8143AA9BA00CFF35D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		259EBBBA143AA9BA00CFF35D /* ViewPicturesFromWeb */ = {
+			isa = PBXGroup;
+			children = (
+				259EBBC3143AA9BA00CFF35D /* ViewPicturesFromWebAppDelegate.h */,
+				259EBBC4143AA9BA00CFF35D /* ViewPicturesFromWebAppDelegate.m */,
+				259EBBC9143AA9BA00CFF35D /* ViewPicturesFromWebViewController.h */,
+				259EBBCA143AA9BA00CFF35D /* ViewPicturesFromWebViewController.m */,
+				259EBBE1143B1E8E00CFF35D /* ViewOnePictureFromWebViewController.h */,
+				259EBBE2143B1E8F00CFF35D /* ViewOnePictureFromWebViewController.m */,
+				259EBBF5143B348700CFF35D /* ReadMe.txt */,
+				259EBBE7143B1F2C00CFF35D /* Interfaces */,
+				259EBBBB143AA9BA00CFF35D /* Supporting Files */,
+			);
+			path = ViewPicturesFromWeb;
+			sourceTree = "<group>";
+		};
+		259EBBBB143AA9BA00CFF35D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				259EBBF7143B37B700CFF35D /* QuestionMark.jpg */,
+				259EBBBC143AA9BA00CFF35D /* ViewPicturesFromWeb-Info.plist */,
+				259EBBBD143AA9BA00CFF35D /* InfoPlist.strings */,
+				259EBBC0143AA9BA00CFF35D /* main.m */,
+				259EBBFE143B3B4600CFF35D /* images.plist */,
+				259EBBC2143AA9BA00CFF35D /* ViewPicturesFromWeb-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		259EBBE7143B1F2C00CFF35D /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				259EBBC6143AA9BA00CFF35D /* MainWindow.xib */,
+				259EBBE4143B1EBD00CFF35D /* ViewOnePictureFromWebViewController.xib */,
+				259EBBCC143AA9BA00CFF35D /* ViewPicturesFromWebViewController.xib */,
+			);
+			name = Interfaces;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		259EBBAF143AA9BA00CFF35D /* ViewPicturesFromWeb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 259EBBD1143AA9BA00CFF35D /* Build configuration list for PBXNativeTarget "ViewPicturesFromWeb" */;
+			buildPhases = (
+				259EBBAC143AA9BA00CFF35D /* Sources */,
+				259EBBAD143AA9BA00CFF35D /* Frameworks */,
+				259EBBAE143AA9BA00CFF35D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ViewPicturesFromWeb;
+			productName = ViewPicturesFromWeb;
+			productReference = 259EBBB0143AA9BA00CFF35D /* ViewPicturesFromWeb.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		259EBBA7143AA9BA00CFF35D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Try To Guess My Company Name";
+			};
+			buildConfigurationList = 259EBBAA143AA9BA00CFF35D /* Build configuration list for PBXProject "ViewPicturesFromWeb" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 259EBBA5143AA9BA00CFF35D;
+			productRefGroup = 259EBBB1143AA9BA00CFF35D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				259EBBAF143AA9BA00CFF35D /* ViewPicturesFromWeb */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		259EBBAE143AA9BA00CFF35D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				259EBBBF143AA9BA00CFF35D /* InfoPlist.strings in Resources */,
+				259EBBC8143AA9BA00CFF35D /* MainWindow.xib in Resources */,
+				259EBBCE143AA9BA00CFF35D /* ViewPicturesFromWebViewController.xib in Resources */,
+				259EBBE6143B1EBD00CFF35D /* ViewOnePictureFromWebViewController.xib in Resources */,
+				259EBBF6143B348700CFF35D /* ReadMe.txt in Resources */,
+				259EBBF9143B37B700CFF35D /* QuestionMark.jpg in Resources */,
+				259EBBFF143B3B4600CFF35D /* images.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		259EBBAC143AA9BA00CFF35D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				259EBBC1143AA9BA00CFF35D /* main.m in Sources */,
+				259EBBC5143AA9BA00CFF35D /* ViewPicturesFromWebAppDelegate.m in Sources */,
+				259EBBCB143AA9BA00CFF35D /* ViewPicturesFromWebViewController.m in Sources */,
+				259EBBE3143B1E8F00CFF35D /* ViewOnePictureFromWebViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		259EBBBD143AA9BA00CFF35D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				259EBBBE143AA9BA00CFF35D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		259EBBC6143AA9BA00CFF35D /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				259EBBC7143AA9BA00CFF35D /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		259EBBCC143AA9BA00CFF35D /* ViewPicturesFromWebViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				259EBBCD143AA9BA00CFF35D /* en */,
+			);
+			name = ViewPicturesFromWebViewController.xib;
+			sourceTree = "<group>";
+		};
+		259EBBE4143B1EBD00CFF35D /* ViewOnePictureFromWebViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				259EBBE5143B1EBD00CFF35D /* en */,
+			);
+			name = ViewOnePictureFromWebViewController.xib;
+			sourceTree = "<group>";
+		};
+		259EBBF7143B37B700CFF35D /* QuestionMark.jpg */ = {
+			isa = PBXVariantGroup;
+			children = (
+				259EBBF8143B37B700CFF35D /* en */,
+			);
+			name = QuestionMark.jpg;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		259EBBCF143AA9BA00CFF35D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		259EBBD0143AA9BA00CFF35D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		259EBBD2143AA9BA00CFF35D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ViewPicturesFromWeb/ViewPicturesFromWeb-Prefix.pch";
+				INFOPLIST_FILE = "ViewPicturesFromWeb/ViewPicturesFromWeb-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		259EBBD3143AA9BA00CFF35D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ViewPicturesFromWeb/ViewPicturesFromWeb-Prefix.pch";
+				INFOPLIST_FILE = "ViewPicturesFromWeb/ViewPicturesFromWeb-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		259EBBAA143AA9BA00CFF35D /* Build configuration list for PBXProject "ViewPicturesFromWeb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				259EBBCF143AA9BA00CFF35D /* Debug */,
+				259EBBD0143AA9BA00CFF35D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		259EBBD1143AA9BA00CFF35D /* Build configuration list for PBXNativeTarget "ViewPicturesFromWeb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				259EBBD2143AA9BA00CFF35D /* Debug */,
+				259EBBD3143AA9BA00CFF35D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 259EBBA7143AA9BA00CFF35D /* Project object */;
+}
