@@ -54,22 +54,26 @@
     for(NSDictionary * pictureEntry in arrayOfPictures)
     {
         UIImage * image = [self fetchPhotoFromThumbnailURL: [NSURL URLWithString:[pictureEntry objectForKey: @"thumbnailURL"]]];
-        if(image)
+        if(!image)
         {
-            NSArray * visibleIndexPaths = [pictureTableView indexPathsForVisibleRows];
-            NSUInteger sectionRow[2] = {0, rowCount++};
-            NSIndexPath * indexPathForThisThumbnail = [NSIndexPath indexPathWithIndexes: sectionRow length:2];
-            
-            [arrayOfThumbnails addObject: image]; 
-            
-            if([visibleIndexPaths indexOfObjectIdenticalTo: indexPathForThisThumbnail] != NSNotFound)
+            // and if the picture load fails, add a question mark
+            image = [UIImage imageNamed: @"QuestionMark.jpg"];
+        }
+
+        [arrayOfThumbnails addObject: image];
+
+        NSArray * visibleIndexPaths = [pictureTableView indexPathsForVisibleRows];
+        NSUInteger sectionRow[2] = {0, rowCount++};
+        NSIndexPath * indexPathForThisThumbnail = [NSIndexPath indexPathWithIndexes: sectionRow length:2];
+
+        for(NSIndexPath *visibleIndexPath in visibleIndexPaths)
+        {
+            if([visibleIndexPath compare:indexPathForThisThumbnail] == NSOrderedSame)
             {
                 // can only do U.I. things on the main thread
                 [self performSelectorOnMainThread: @selector(reloadThisTableViewCell:) withObject: [NSArray arrayWithObject: indexPathForThisThumbnail] waitUntilDone: NO];
+                break;
             }
-        } else {
-            // and if the picture load fails, add a question mark
-            [arrayOfThumbnails addObject: [UIImage imageNamed: @"QuestionMark"]];
         }
     }
     
@@ -87,7 +91,7 @@
     
     // another way to automatically release/retain would be to set arrayOfPictures as an Objective C 2.0 property
     // and then do self.array = an array we created
-    arrayOfPictures = [[NSArray alloc] initWithContentsOfURL: [NSURL URLWithString: @"https://orby.orb.com/~jregisser/download/iOSTest/images.plist"]];
+    arrayOfPictures = [[NSArray alloc] initWithContentsOfURL: [NSURL URLWithString: @"https://raw.githubusercontent.com/dautermann/ViewPicturesFromWeb/master/ViewPicturesFromWeb/images.plist"]];
     if(!arrayOfPictures || ([arrayOfPictures count] == 0))
     {
         NSBundle * mainBundle = [NSBundle mainBundle];
@@ -95,7 +99,7 @@
         
         if(urlForImagePlist)
         {
-            // in case jregisser pulls his plist file, here's a local copy of the same file
+            // in case github is down, here's a local copy of the same file
             arrayOfPictures = [[NSArray alloc] initWithContentsOfURL: urlForImagePlist];
         } else {
             NSLog( @"could not load image plist!");
